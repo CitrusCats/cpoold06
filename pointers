@@ -1,0 +1,14 @@
+str = pointer to a character
+*str = value at the pointer contained in str
+&str = address of the variable str
+
+null-terminated string "hello" where the first character 'h' at address 0x12344567
+*str == character 'h'
+&str = address of the variable str: example 0x87492834
+
+str = 0x12344567
+*str = 'h'
+&str = 0x87492834
+str[0] = 0x12344567
+str[1] = 0x12344571
+str[2] =
